@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app-1:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: simple-app-1
